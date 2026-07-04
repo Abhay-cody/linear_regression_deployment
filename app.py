@@ -21,7 +21,7 @@ st.set_page_config(
 )
 
 st.title("🏠 House Price Prediction")
-st.write("Predict house price using Linear Regression")
+st.write("Prediction of house price using Linear Regression")
 
 # -----------------------------------
 # Load Dataset
