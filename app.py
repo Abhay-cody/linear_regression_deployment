@@ -21,7 +21,7 @@ st.set_page_config(
 )
 
 st.title("🏠 House Price Prediction")
-st.write("Prediction of house price using Linear Regression")
+st.write("Predict house price using Linear Regression")
 
 # -----------------------------------
 # Load Dataset
@@ -69,3 +69,30 @@ st.subheader("Model Details")
 
 st.write("Coefficient:", model.coef_[0])
 st.write("Intercept:", model.intercept_)
+# ==============================
+# Sidebar Branding
+# ==============================
+
+st.markdown("---")
+
+st.markdown("""
+<div style='text-align:center;'>
+
+### 🚀 Developed by <span style="color:#4CAF50;">ABHAY KUMAR GUPTA</span>
+
+<a href="https://github.com/Abhay-cody" target="_blank">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+&nbsp;
+
+<a href="https://www.linkedin.com/in/abhay-kumar-gupta-104a18397" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+
+<br><br>
+
+⭐ Thank you for visiting this Machine Learning Project.
+
+</div>
+""", unsafe_allow_html=True)
